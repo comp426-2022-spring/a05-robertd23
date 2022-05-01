@@ -12,9 +12,6 @@ const args = require("minimist")(process.argv.slice(2));
 args["port"];
 const HTTP_PORT = args.port || 5000;
 
-
-
-
 const server = app.listen(HTTP_PORT, () => {
   console.log('App listening on port %PORT%'.replace('%PORT%', HTTP_PORT))
 });
@@ -43,7 +40,6 @@ if (args.help || args.h) {
     console.log(help)
     console.log('issue present')
     process.exit(0)
-    
 }
 
 app.use(express.urlencoded({extended: true}));
