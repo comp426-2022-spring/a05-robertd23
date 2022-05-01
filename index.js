@@ -14,12 +14,6 @@ const HTTP_PORT = args.port || 5000;
 const server = app.listen(HTTP_PORT, () => {
   console.log('App listening on port %PORT%'.replace('%PORT%', HTTP_PORT))
 });
-
-let x = 2;
-const random = 1;
-
-
-// See what is stored in the object produced by minimist
 console.log(args)
 // Store help text 
 const help = (`
