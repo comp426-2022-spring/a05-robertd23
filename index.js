@@ -42,6 +42,8 @@ if (args.help || args.h) {
     process.exit(0)
 }
 print("hi");
+print("hi");
+
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
