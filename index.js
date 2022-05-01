@@ -53,6 +53,7 @@ if (args.log == 'true') {
 
 app.use();
 app.use();
+app.use();
 
 app.use( (req, res, next) => {
   // Your middleware goes here.
