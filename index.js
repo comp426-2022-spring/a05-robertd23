@@ -43,6 +43,7 @@ if (args.help || args.h) {
 }
 print("hi");
 print("hi");
+print("hi");
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
