@@ -41,9 +41,6 @@ if (args.help || args.h) {
     console.log('issue present')
     process.exit(0)
 }
-print("hi");
-print("hi");
-print("hi");
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
@@ -53,6 +50,7 @@ if (args.log == 'true') {
   app.use(morgan('combined', {stream: logger}))
   console.log('this works as intended and the log exists')
 }
+
 
 app.use( (req, res, next) => {
   // Your middleware goes here.
