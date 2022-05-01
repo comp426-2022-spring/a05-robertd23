@@ -7,6 +7,7 @@ const morgan = require('morgan')
 const fs = require('fs')
 const db = require('./src/services/database.js')
 
+
 const args = require("minimist")(process.argv.slice(2));
 args["port"];
 const HTTP_PORT = args.port || 5000;
