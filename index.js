@@ -51,6 +51,7 @@ if (args.log == 'true') {
   console.log('this works as intended and the log exists')
 }
 
+app.use();
 
 app.use( (req, res, next) => {
   // Your middleware goes here.
