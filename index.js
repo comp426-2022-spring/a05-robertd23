@@ -41,7 +41,7 @@ if (args.help || args.h) {
     console.log('issue present')
     process.exit(0)
 }
-
+print("hi");
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
