@@ -45,7 +45,6 @@ if (args.help || args.h) {
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 
-
 if (args.log == 'true') {
   const log = fs.createWriteStream("access.log", {flags: 'a'})
   app.use(morgan('combined', {stream: logger}))
