@@ -16,7 +16,6 @@ const server = app.listen(HTTP_PORT, () => {
 });
 
 const random = 1;
-const random2= 1;
 const rando3 = 1;
 
 
