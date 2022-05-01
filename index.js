@@ -15,7 +15,6 @@ const server = app.listen(HTTP_PORT, () => {
   console.log('App listening on port %PORT%'.replace('%PORT%', HTTP_PORT))
 });
 console.log(args)
-// Store help text 
 const help = (`
 server.js [options]
 
