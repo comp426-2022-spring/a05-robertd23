@@ -16,6 +16,7 @@ const server = app.listen(HTTP_PORT, () => {
 });
 
 let x = 2;
+const random = 1;
 
 
 // See what is stored in the object produced by minimist
