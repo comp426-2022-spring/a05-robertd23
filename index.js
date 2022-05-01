@@ -15,8 +15,7 @@ const server = app.listen(HTTP_PORT, () => {
   console.log('App listening on port %PORT%'.replace('%PORT%', HTTP_PORT))
 });
 
-const random = 1;
-const rando3 = 1;
+let x = 2;
 
 
 // See what is stored in the object produced by minimist
